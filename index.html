@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stay Updated — Newsletter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="newsletter" aria-label="Newsletter subscription">
+      <div class="content">
+        <h1>Stay updated!</h1>
+        <p class="intro">Join 60,000+ product managers receiving monthly<br class="desktop-break"> updates on:</p>
+
+        <ul class="benefits">
+          <li><span class="check">✓</span>Product discovery and building what matters</li>
+          <li><span class="check">✓</span>Measuring to ensure updates are a success</li>
+          <li><span class="check">✓</span>And much more!</li>
+        </ul>
+
+        <form id="subscribeForm" novalidate>
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="ash@loremcompany.com" autocomplete="email" required>
+          <p class="message" id="message" aria-live="polite"></p>
+          <button type="submit">Subscribe to monthly newsletter</button>
+        </form>
+      </div>
+
+      <div class="art" aria-hidden="true">
+        <div class="orange-band"></div>
+        <div class="device">
+          <div class="browser">
+            <div class="browser-top"><i></i><i></i><i></i></div>
+            <div class="lines"><b></b><b></b><b></b><b></b></div>
+          </div>
+          <div class="chart-card">
+            <svg viewBox="0 0 120 90" role="presentation">
+              <path d="M7 75 L34 49 L50 57 L73 31 L88 39 L112 12" fill="none" stroke="#f36b52" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="score-card"><div class="ring"><span>94</span></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
